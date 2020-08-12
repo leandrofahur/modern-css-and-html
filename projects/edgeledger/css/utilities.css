@@ -7,3 +7,38 @@
   color: #0284d0;
 }
 
+/* Button */
+.btn {
+  cursor: pointer;
+  /* Allow me to set  width and a height to the element */
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  /* background-color: #28a745; */
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #0284d0;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
