@@ -89,7 +89,7 @@ img {
 
 .hero .content h1 {
   font-size: 55px;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 .hero .content p {
@@ -111,4 +111,22 @@ img {
 
 .hero * {
   z-index: 10;
+}
+
+/* Icons */
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: 400px;
+  margin-bottom: 50px;
+}
+
+.icons i {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
