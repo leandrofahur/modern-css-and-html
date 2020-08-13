@@ -104,7 +104,11 @@ a {
   font-size: 70px;
 }
 
-/* Services */
+/* About */
+.about .flex-grid .btn {
+  width: 80%;
+  margin: 20px auto;
+}
 
 /* Gallery */
 .gallery h1 {
