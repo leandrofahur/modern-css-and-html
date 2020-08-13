@@ -1,0 +1,128 @@
+/* Text color */
+.text-primary {
+  /* color: #ff7400; */
+  color: #ff4d00;
+}
+
+.text-dark {
+  color: #333;
+}
+
+.text-light {
+  color: #fff;
+}
+
+/* Backgrounds */
+.bg-primary {
+  /* color: #ff7400; */
+  background-color: #ff4d00;
+}
+
+.bg-dark {
+  background-color: #333;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.bg-secondary {
+  background-color: #ff9a00	;
+}
+
+
+/* Effects */
+.stroke-dark {
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.stroke-light {
+  text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+/* Buttons */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Spacing */
+.py-1 {
+  padding-top: 10px;
+}
+
+.py-2 {
+  padding-top: 20px;
+}
+
+.py-3 {
+  padding-top: 30px;
+}
+
+.my-1 {
+  margin-top: 10px;
+}
+
+.my-2 {
+  margin-top: 20px;
+}
+
+.my-3 {
+  margin-top: 30px;
+}
+
+/* About utils */
+.about .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.about .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.about .column .column-1,
+.about .column .column-2 {
+  height: 100%;
+}
+
+.contact .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact .column img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
