@@ -87,3 +87,19 @@ a {
 }
 
 /* Services */
+
+/* Gallery */
+.gallery h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.gallery h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.gallery p {
+  margin-top: 10px;
+  text-align: center;
+}

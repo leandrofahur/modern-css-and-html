@@ -50,6 +50,18 @@
 }
 
 /* Formating */
+.p-1 {
+  padding: 10px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
 .py-1 {
   padding-top: 10px;
 }
@@ -117,6 +129,7 @@
 
 .flex-items .box i {
   background-color: #ff4d00;
+  color: #fff;
   border-radius: 50%;
   padding: 25px;
 }
@@ -139,7 +152,7 @@
   width: 50%;
 }
 
-.flex-grid .column p{
+.flex-grid .column p {
   text-align: justify;
   padding: 0 20px;
 }
