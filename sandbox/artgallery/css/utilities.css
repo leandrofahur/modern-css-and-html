@@ -13,15 +13,15 @@
 
 /* Background */
 .bg-primary {
-  color: #ff4d00;
+  background-color: #ff4d00;
 }
 
 .bg-dark {
-  color: #333;
+  background-color: #333;
 }
 
 .bg-light {
-  color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 /* Stroke */
@@ -123,4 +123,29 @@
 
 .flex-items p {
   text-align: justify;
+}
+
+/* Flex-grid */
+.flex-grid .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-grid .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.flex-grid .column p{
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.flex-grid .column img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
