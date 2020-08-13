@@ -1,6 +1,6 @@
 /* Text colors */
 .txt-primary {
-  color: #ff7400;
+  color: #ff4d00;
 }
 
 .txt-dark {
@@ -11,13 +11,9 @@
   color: #f4f4f4;
 }
 
-.txt-secondary {
-  color: #ff4d00;
-}
-
 /* Background */
 .bg-primary {
-  color: #ff7400;
+  color: #ff4d00;
 }
 
 .bg-dark {
@@ -28,17 +24,13 @@
   color: #f4f4f4;
 }
 
-.bg-secondary {
-  color: #ff4d00;
-}
-
 /* Stroke */
 .stroke-primary {
   text-shadow:
-   -1px -1px 0 #ff7400,  
-    1px -1px 0 #ff7400,
-    -1px 1px 0 #ff7400,
-     1px 1px 0 #ff7400;
+   -1px -1px 0 #ff4d00,  
+    1px -1px 0 #ff4d00,
+    -1px 1px 0 #ff4d00,
+     1px 1px 0 #ff4d00;
 }
 
 .stroke-dark {
@@ -82,6 +74,32 @@
   margin-top: 30px;
 }
 
+/* Buttons */
+.btn {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn-primary {
+  background-color: #ff4d00;
+}
+
+.btn-dark {
+  background-color: #333;
+}
+
+.btn-light {
+  background-color: #fff;
+}
+
 /* Flex-column */
 .flex-items {
   display: flex;
@@ -103,6 +121,6 @@
   padding: 25px;
 }
 
-.flex-items p{
+.flex-items p {
   text-align: justify;
 }
