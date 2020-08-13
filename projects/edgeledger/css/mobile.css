@@ -29,6 +29,11 @@
     max-width: 100%;
   }
 
+  .flex-columns .column .column-2 .btn {
+    width: 100%;
+    text-align: center;
+  }
+
   .team img {
     width: 70%;
     margin-top: 10px;
