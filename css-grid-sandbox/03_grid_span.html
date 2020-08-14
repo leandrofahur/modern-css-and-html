@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,10 +29,16 @@
       grid-row-end: 3; */
 
       grid-column: 1 / span 3;
+      grid-row: 1 / span 2;
+    }
 
+    .item:nth-child(9) {
+      grid-column: 2 / span 3;
+      grid-row: 4 / span 2;
     }
   </style>
 </head>
+
 <body>
   <div class="grid">
     <div class="item">Item 1</div>
@@ -51,4 +58,5 @@
     <div class="item">Item 15</div>
   </div>
 </body>
+
 </html>
