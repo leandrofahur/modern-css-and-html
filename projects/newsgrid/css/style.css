@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Staatliches&display=swap');
 
 :root {
-  --primary-color: #f72727;
+  --primary-color: #c72727;
   --secondary-color: #f99500;
   --dark-color: #333;
   --light-color: #f3f3f3;
@@ -112,6 +112,12 @@ p {
   background-color: var(--primary-color);
 }
 
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
 .bg-dark {
   background-color: var(--dark-color);
   color: #fff;
@@ -164,6 +170,10 @@ p {
 
 .p1 {
   padding: 3rem;
+}
+
+.l-heading {
+  font-size: 3rem;
 }
 
 .list li {
@@ -276,6 +286,31 @@ p {
   grid-gap: 1rem;
   grid-column: 2 / span 2;
   align-items: center;
+}
+
+/* About */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;  
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+.page-container > *:first-child{
+  grid-row: 1 / span 3;
+}
+
+/* Articles */
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: .5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* Footer */
