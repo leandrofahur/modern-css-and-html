@@ -34,3 +34,9 @@ html, body {
   width: 100%;
 }
 
+#memory-game .memory-grid img:hover {
+  cursor: pointer;
+}
+
+
+
