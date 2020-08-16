@@ -36,6 +36,18 @@ a {
   background-color: var(--primary-color);
 }
 
+.txt-primary {
+  color: var(--primary-color);
+}
+
+.stroke-dark {
+  text-shadow: 
+  -1px -1px #000,
+   1px -1px #000,
+  -1px  1px #000,
+   1px  1px #000;
+}
+
 /* Header */
 header {
   background-color: var(--dark-color);
@@ -69,5 +81,40 @@ header {
   color: var(--primary-color);
 }
 
+/* Cover Section */
+.main-cover {
+  background: url('../img/cover/cover1.jpeg') no-repeat center center/cover;
+  height: 50vh;
+  position: relative;
+  display: grid;
+  text-align: center;
+}
 
+.main-cover h1 {
+  font-size: 40px;
+  color: #fff;
+  align-self: center;
+  z-index: 1;
+}
+
+.main-cover h3 {
+  font-size: 25px;
+  color: #fff;
+  z-index: 1;
+}
+
+.main-cover::before {
+  content: '';
+  /* Remeber that the parent .main-cover have the relative position */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0,0.4);
+}
+
+.main-cover.cover {
+  z-index: 10;
+}
 
