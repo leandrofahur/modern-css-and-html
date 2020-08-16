@@ -261,4 +261,78 @@ header {
   display: block;
   width: 100%;
   height: 100%;
+  margin-bottom: 1rem;
+}
+
+
+/* Contact */
+#contact {
+  background-color: var(--light-color);
+}
+
+#contact .flex-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#contact .flex-column > *:first-child {
+  padding: 2rem;
+}
+
+#contact h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#contact p {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+#contact img {
+  width: 100%;
+  height: 100%;
+}
+
+#contact .form-group input {
+  width: 90%;
+  padding: .5rem .75rem;
+  margin-top: .75rem;
+}
+
+#contact a {
+  margin: 1rem 0;
+}
+
+/* Team */
+#team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  background-color: var(--primary-color);
+  grid-gap: 1rem;
+}
+
+#team > * {
+  width: 100%;
+}
+
+#team img {
+  display: block;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+#team h3,
+#team p {
+  margin-top: .5rem;
 }
