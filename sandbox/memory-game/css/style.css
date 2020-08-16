@@ -9,18 +9,24 @@ html, body {
   background-color: var(--dark-color);
 }
 
+/* Utilities */
+.container {
+  max-width: var(--max-width);
+}
+
 /* Memory game */
 #memory-game .memory-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-column: 1;
   grid-gap: 1rem;
 }
 
 #memory-game .memory-grid > * {
   background-color: #f3f3f3;
-  height: 200px;
-  width: 200px;
   justify-self: center;
+  height: 100%;
+  width: 100%;
 }
 
 #memory-game .memory-grid img {
