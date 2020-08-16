@@ -17,7 +17,7 @@ html, body {
 /* Memory game */
 #memory-game .memory-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
   grid-column: 1;
   grid-gap: 1rem;
 }
