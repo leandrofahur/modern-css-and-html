@@ -1,0 +1,30 @@
+/* Variables */
+:root {
+  --dark-color: #333;
+  --light-color: #f3f3f3;
+  --max-width: 1100px;
+}
+
+html, body {
+  background-color: var(--dark-color);
+}
+
+/* Memory game */
+#memory-game .memory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 1rem;
+}
+
+#memory-game .memory-grid > * {
+  background-color: #f3f3f3;
+  height: 200px;
+  width: 200px;
+  justify-self: center;
+}
+
+#memory-game .memory-grid img {
+  height: 100%;
+  width: 100%;
+}
+
