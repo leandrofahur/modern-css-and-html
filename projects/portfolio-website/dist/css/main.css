@@ -446,6 +446,7 @@ img {
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
+  #contact-b .contact-info,
   .items {
     grid-template-columns: repeat(1, 1fr); }
   #home-a .specials div {
@@ -467,4 +468,6 @@ img {
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message"; } }
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+  #contact-b .contact-info div {
+    padding-top: 2rem; } }
